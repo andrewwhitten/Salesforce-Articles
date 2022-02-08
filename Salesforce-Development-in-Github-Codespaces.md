@@ -25,5 +25,4 @@ Step 3: At this point you will have Visual Studio Code running in the browser, w
 Step 4: Set up the Ubuntu machine as per Salesforce SFDX guidelines for an NPM install: https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm#sfdx_setup_install_cli_npm . Afterwards update with npm: update --global sfdx-cli
 
 
-<img width="984" alt="Screen Shot 2022-02-08 at 7 51 50 pm" src="https://user-images.githubusercontent.com/41508645/152951684-8f097668-7eeb-41f4-8463-ea4d4ab3d55d.png">
-
+<img width="983" alt="Screen Shot 2022-02-08 at 7 57 11 pm" src="https://user-images.githubusercontent.com/41508645/152952453-a187c64f-e33b-431d-a186-91a4f0538790.png">

@@ -16,3 +16,8 @@ Step 1: Create a new GitHub Repository
 
 Step 2: Launch a new CodeSpace
 
+<img width="712" alt="Screen Shot 2022-02-08 at 5 33 42 pm" src="https://user-images.githubusercontent.com/41508645/152949211-969eb5ec-a5a0-4703-99e1-db49916f89af.png">
+
+Step 3: At this point you will have Visual Studio Code running in the browser, with a terminal in your new Ubuntu Linux machine:![image](https://user-images.githubusercontent.com/41508645/152949333-04159ccc-9612-4dd3-bcd9-164132b30646.png)
+
+<img width="1014" alt="Screen Shot 2022-02-08 at 5 33 14 pm" src="https://user-images.githubusercontent.com/41508645/152949252-9fa06e8b-8993-4638-a682-2222e075856a.png">

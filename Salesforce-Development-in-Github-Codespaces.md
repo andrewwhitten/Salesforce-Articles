@@ -19,30 +19,29 @@ As compelling as Code Builder might sound, GitHub has been offering and improvin
 
 The steps to get this up and running are:
 
-Step 1: Create a new GitHub Repository - https://github.com/
+**Step 1:** Create a new GitHub Repository - https://github.com/
 
-Step 2: Launch a new CodeSpace from your new repository:
+**Step 2:** Launch a new CodeSpace from your new repository:
 
 <img width="712" alt="Screen Shot 2022-02-08 at 5 33 42 pm" src="https://user-images.githubusercontent.com/41508645/152949211-969eb5ec-a5a0-4703-99e1-db49916f89af.png">
 
-Step 3: At this point you will have Visual Studio Code running in the browser, with a terminal in your new Ubuntu Linux machine:
+**Step 3:** At this point you will have Visual Studio Code running in the browser, with a terminal in your new Ubuntu Linux machine:
 
 <img width="1014" alt="Screen Shot 2022-02-08 at 5 33 14 pm" src="https://user-images.githubusercontent.com/41508645/152949252-9fa06e8b-8993-4638-a682-2222e075856a.png">
 
-Step 4: Set up the Ubuntu machine as per Salesforce SFDX guidelines for an NPM install: https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm#sfdx_setup_install_cli_npm . Afterwards update with npm: update --global sfdx-cli
+**Step 4:** Set up the Ubuntu machine as per Salesforce SFDX guidelines for an NPM install: https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm#sfdx_setup_install_cli_npm . Afterwards update with npm: update --global sfdx-cli
 
 <img width="983" alt="Screen Shot 2022-02-08 at 7 57 11 pm" src="https://user-images.githubusercontent.com/41508645/152952453-a187c64f-e33b-431d-a186-91a4f0538790.png">
 
-Step 5: Create your Salesforce project as normal:
+**Step 5:** Create your Salesforce project as normal:
 
 <img width="895" alt="Create Project" src="https://user-images.githubusercontent.com/41508645/153102794-af7c604b-0675-4f7e-a670-13ab4cc0336a.png">
 
-
-Step 6: <B>WARNING - Access Tokens represent a security risk if you somehow expose them! Be careful here.</B> Now we need to authorize a new Org to deploy to. This is a little tricky since we don't have a web browser on on remote linux development machine. Easiest way is to use an Access Token, and you can do that from the Salesforce CLI on your <b>local</b> machine. Use the sfdx force:org:display command, and use the Access Token in the resulting output (red line) below:
+**Step 6:** **WARNING - Access Tokens represent a security risk if you somehow expose them! Be careful here.** Now we need to authorize a new Org to deploy to. This is a little tricky since we don't have a web browser on on remote linux development machine. Easiest way is to use an Access Token, and you can do that from the Salesforce CLI on your <b>local</b> machine. Use the sfdx force:org:display command, and use the Access Token in the resulting output (red line) below:
 	
 <img width="589" alt="Screen Shot 2022-02-09 at 11 55 33 am" src="https://user-images.githubusercontent.com/41508645/153101609-1ab7803c-8e34-471f-ae01-a6ac2e4fe1d4.png">
 
-Step 7: From you Codespace Linux machine, use the following command from your terminal and enter the Access Token when prompted:
+**Step 7:** From you Codespace Linux machine, use the following command from your terminal and enter the Access Token when prompted:
 
 sfdx auth:accesstoken:store --instanceurl https://MyVeryCoolOrg.my.salesforce.com/ 
 

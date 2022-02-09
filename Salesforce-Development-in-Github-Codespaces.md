@@ -46,3 +46,8 @@ The steps to get this up and running are:
 ```sfdx auth:accesstoken:store --instanceurl https://MyVeryCoolOrg.my.salesforce.com/ ```
 
 <img width="1052" alt="Screen Shot 2022-02-09 at 12 04 20 pm" src="https://user-images.githubusercontent.com/41508645/153102380-5def9aaa-9059-4132-9a2e-0e21ce2d3e83.png">
+
+**Step 8:** Set your new autherized org in Visual Studio Code 
+
+<img width="475" alt="Screen Shot 2022-02-09 at 12 52 22 pm" src="https://user-images.githubusercontent.com/41508645/153106958-52385109-82b4-47eb-a426-2d347db49feb.png">
+

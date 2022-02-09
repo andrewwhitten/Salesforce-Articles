@@ -1,3 +1,6 @@
+#Salesforce Development in the Cloud
+
+##Why
 
 The idea of coding in the cloud with Salesforce is compelling for many reasons:
 
@@ -11,6 +14,8 @@ The idea of coding in the cloud with Salesforce is compelling for many reasons:
 Salesforce have announced their cloud based development IDE, Code Builder, way back in June 2020. Recent rumors suggested that it might see beta in Spring '22, however there is no mention of it in the new Release Notes. Additionally it isn't clear how much longer it would take to get to GA even if it was released as beta in say Summer '22.
 
 As compelling as Code Builder might sound, GitHub has been offering and improving their equivalent Codespaces product for a while now, and although it isn't designed for Salesforce, it basically works well with most coding requirements today.
+
+##How
 
 The steps to get this up and running are:
 

@@ -1,6 +1,6 @@
-#Salesforce Development in the Cloud
+# Salesforce Development in the Cloud
 
-##Why
+## Why
 
 The idea of coding in the cloud with Salesforce is compelling for many reasons:
 
@@ -15,7 +15,7 @@ Salesforce have announced their cloud based development IDE, Code Builder, way b
 
 As compelling as Code Builder might sound, GitHub has been offering and improving their equivalent Codespaces product for a while now, and although it isn't designed for Salesforce, it basically works well with most coding requirements today.
 
-##How
+## How
 
 The steps to get this up and running are:
 

@@ -1,4 +1,4 @@
-# Salesforce Development in the Cloud
+# Salesforce Development with Github Codespaces
 
 ## Why
 
@@ -43,6 +43,6 @@ The steps to get this up and running are:
 
 **Step 7:** From you Codespace Linux machine, use the following command from your terminal and enter the Access Token when prompted:
 
-sfdx auth:accesstoken:store --instanceurl https://MyVeryCoolOrg.my.salesforce.com/ 
+```sfdx auth:accesstoken:store --instanceurl https://MyVeryCoolOrg.my.salesforce.com/ ```
 
 <img width="1052" alt="Screen Shot 2022-02-09 at 12 04 20 pm" src="https://user-images.githubusercontent.com/41508645/153102380-5def9aaa-9059-4132-9a2e-0e21ce2d3e83.png">
